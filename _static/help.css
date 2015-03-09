@@ -1,0 +1,38 @@
+@import url("cloud.css");
+body {
+    background-color: #6e6e6e !important;
+}
+div.related {
+    background-color: #21ab38 !important;
+}
+h1 {
+    background-color: #aeaeae !important;
+}
+h2 {
+    background-color: #c0c0c0 !important;
+    font-style:normal !important;
+}
+h3{
+    background-color: #fff !important;
+}
+h4{
+    background-color: #f5f5f5 !important;
+}
+
+div.sphinxsidebar #searchbox input[type="submit"] {
+    width: 50px;
+}
+dt[id^='term'] {
+    font-size: 100%;
+    font-style:bold;
+}
+img.sp { max-height: 200px;}
+.related li:last-child {
+    visibility: hidden;
+}
+.strike {
+    text-decoration: line-through;
+}
+.align-bottom {
+    vertical-align: middle;
+}
