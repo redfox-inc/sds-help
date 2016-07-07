@@ -36,13 +36,13 @@
     <link rel="prev" title="概要" href="chap1.html" /> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <body>
+  <body role="document">
     <div class="relbar-top">
         
-    <div class="related">
+    <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
-        <li class="right" style="margin-right: 10px;display:none">
+        <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
@@ -61,7 +61,7 @@
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
-          <div class="body">
+          <div class="body" role="main">
             
 <div class="section" id="id1">
 <h1>管理者の操作方法<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
@@ -166,11 +166,11 @@ v3.4.4以降にした上で行って下さい。</p>
 <li>管理サイトのメニュータブから安全走行支援 &gt; 危険運転検知設定をクリックします。</li>
 <li>各設定値が表示されます。ページ下部の「編集」ボタンをクリックします。</li>
 <li>各設定値を調整したら、「設定」ボタンをクリックしてください。</li>
-<li>変更後にアプリケーション側で <a class="reference internal" href="#app-sync"><em>同期</em></a> を行って下さい。</li>
+<li>変更後にアプリケーション側で <a class="reference internal" href="#app-sync"><span class="std std-ref">同期</span></a> を行って下さい。</li>
 </ol>
 <p><img alt="危険運転検知設定について" src="_images/chp2_4.jpg" /></p>
-<table border="1" class="docutils">
-<caption>各設定値について</caption>
+<table border="1" class="docutils" id="id9">
+<caption><span class="caption-text">各設定値について</span><a class="headerlink" href="#id9" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col width="50%" />
 <col width="50%" />
@@ -182,10 +182,10 @@ v3.4.4以降にした上で行って下さい。</p>
 </thead>
 <tbody valign="top">
 <tr class="row-even"><td>急加速閾値</td>
-<td>急加速と判定する <a class="reference internal" href="glossary.html#term-15"><em class="xref std std-term">加速度</em></a> を、<a class="reference internal" href="glossary.html#term-g"><em class="xref std std-term">G値</em></a> で設定します。</td>
+<td>急加速と判定する <a class="reference internal" href="glossary.html#term-15"><span class="xref std std-term">加速度</span></a> を、<a class="reference internal" href="glossary.html#term-g"><span class="xref std std-term">G値</span></a> で設定します。</td>
 </tr>
 <tr class="row-odd"><td>急減速閾値</td>
-<td>急減速と判定する 減速度を、<a class="reference internal" href="glossary.html#term-g"><em class="xref std std-term">G値</em></a> で設定します。</td>
+<td>急減速と判定する 減速度を、<a class="reference internal" href="glossary.html#term-g"><span class="xref std std-term">G値</span></a> で設定します。</td>
 </tr>
 <tr class="row-even"><td>速度超過閾値</td>
 <td>速度超過と判定する時速です。端末で通知を出し、サーバーにデータが送信されます。</td>
@@ -218,7 +218,7 @@ v3.4.4以降にした上で行って下さい。</p>
           </div>
         </div>
       </div>
-      <div class="sphinxsidebar">
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
         <p class="logo"><a href="index.html" title="index">
           <img class="logo" src="_static/cyzen_logo.png" alt="Logo"/>
@@ -277,10 +277,10 @@ v3.4.4以降にした上で行って下さい。</p>
     </div>
     <div class="relbar-bottom">
         
-    <div class="related">
+    <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
-        <li class="right" style="margin-right: 10px;display:none">
+        <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
@@ -295,9 +295,9 @@ v3.4.4以降にした上で行って下さい。</p>
     </div>
     </div>
 
-    <div class="footer">
+    <div class="footer" role="contentinfo">
         &copy; Copyright 2015 redfox, Inc. All Rights Reserved..
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.4.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>
